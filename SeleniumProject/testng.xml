@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LMS Test Cases">
+<listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="AlchemyLMS.TestCase2"/>
+      <class name="AlchemyLMS.TestCase1"/>
+      <class name="AlchemyLMS.TestCase4"/>
+      <class name="AlchemyLMS.TestCase3"/>
+      <class name="AlchemyLMS.TestCase9"/>
+      <class name="AlchemyLMS.TestCase6"/>
+      <class name="AlchemyLMS.TestCase5"/>
+      <class name="AlchemyLMS.TestCase8"/>
+      <class name="AlchemyLMS.TestCase7"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
